@@ -28,3 +28,15 @@ Route::get('/blog-home', function () {
 Route::get('/blog-post', function () {
     return view('blog-post');
 });
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/portfolio-item', function () {
+    return view('portfolio-item');
+});
+
+Route::get('/portfolio-overview', function () {
+    return view('portfolio-overview');
+});
